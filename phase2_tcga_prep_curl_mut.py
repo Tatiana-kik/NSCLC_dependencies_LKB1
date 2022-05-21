@@ -101,3 +101,6 @@ path = os.path.join('phase2', 'request_maf.txt')
 with open(path, 'w') as f:
     f.write(json.dumps(params_files))
     print(f'\nFile-ids dictionary saved at {path}.\n')
+
+# prepare directory to extract files after downloading archive by cURL
+os.mkdir(os.path.join('phase2', 'TCGA_MAF'))

@@ -28,7 +28,8 @@ _Supervisor:_ Holik Aliaksei
 <a name="anchor_1"></a>
 ## 1. Requirements [↑](#anchor_0)
 
-Code was tested on Ubuntu 20.04 (`dash 0.5.10`) / Windows 10 (`wsl`), Python 3.9. Necessary modules are listed in `requirements.txt` file. To install them you need to run the next command:
+Code was tested on Ubuntu 20.04 (`dash 0.5.10`) / Windows 10 (`cmd.exe`), Python 3.9.
+Python necessary modules are listed in `requirements.txt` file. To install them you need to run the next command:
 ```
 pip install -r requirements.txt
 ```
@@ -38,7 +39,6 @@ please ignore it.
 Also you need:
 1. `curl` (tested on version 7.68.0)
 2. `tar` (tested on version 1.30)
-3. `mkdir` (tested on version GNU coreutils 8.30)
 
 <a name="anchor_2"></a>
 ## 2. Introduction [↑](#anchor_0)
@@ -223,7 +223,6 @@ curl --output phase2/expression_files.tar.gz --remote-name --remote-header-name 
 #### 5.3.2. Extract the downloaded expression archive into `TCGA/` folder:
 TCGA folder should contain all the \*.tsv files (598 files). Fot this run:
 ```
-mkdir -p phase2/TCGA
 tar xf phase2/expression_files.tar.gz --directory phase2/TCGA
 ```
 #### 5.3.3. Run processing of the \*.tsv files:
@@ -245,7 +244,6 @@ curl --output phase2/mutation_files.tar.gz --remote-name --remote-header-name --
 Extract into the `TCGA_MAF/` folder. TCGA_MAF folder should contain all the \*.maf
 files (448 files).
 ```
-mkdir -p phase2/TCGA_MAF
 tar xf phase2/mutation_files.tar.gz --directory phase2/TCGA_MAF
 ```
 
@@ -290,7 +288,8 @@ Despite the fact that other candidate genes in our work were not confirmed by cl
 data, there are multiple studies showing a significant role of the **AHR**
 \[[PMID: 17200336](https://pubmed.ncbi.nlm.nih.gov/17200336/)\],
 \[[PMID: 22273977](https://pubmed.ncbi.nlm.nih.gov/22273977/)\]
-and **ERF**  genes in the development of lung adenocarcinoma.
+and **ERF**  \[[PMID: 20978205](https://pubmed.ncbi.nlm.nih.gov/20978205/)\],
+ \[[PMID: 33987392](https://pubmed.ncbi.nlm.nih.gov/33987392/)\] genes in the development of lung adenocarcinoma.
 
 <a name="anchor_6_2"></a>
 ### 6.2. Network reconstruction [↑](#anchor_0)
