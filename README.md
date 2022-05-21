@@ -28,6 +28,16 @@ _Supervisor:_ Holik Aliaksei
 <a name="anchor_1"></a>
 ## 1. Requirements [↑](#anchor_0)
 
+Minimum hardware requirements:
+- CPU Intel Core i3 or higher version
+- RAM 4 GB
+- Free storage space 6 GB
+
+Tested with hardware:
+- CPU Intel Core i7
+- RAM 32 GB
+- Free storage space 30 GB
+
 Code was tested on Ubuntu 20.04 (`dash 0.5.10`) / Windows 10 (`cmd.exe`), Python 3.9.
 Python necessary modules are listed in `requirements.txt` file. To install them you need to run the next command:
 ```
