@@ -6,7 +6,7 @@ _Supervisor:_ Holik Aliaksei
 <a name="anchor_0"></a>
 ## Table of Contents
 1. [Requirements](#anchor_1)
-1. [Introduction](#anchor_2)
+2. [Introduction](#anchor_2)
 3. [Goals](#anchor_3)
 4. [Phase 1: Analysis of data on cancer cell lines from the DepMap project](#anchor_4)
     1. [Data](#anchor_4_1)
@@ -23,6 +23,7 @@ _Supervisor:_ Holik Aliaksei
     1. [Network reconstruction](#anchor_6_2)
     1. [GO enrichment](#anchor_6_3)
 7. [Final conclusion](#anchor_7)
+8. [References](#anchor_8)
 
 
 <a name="anchor_1"></a>
@@ -340,3 +341,19 @@ In conclusion, we can say that:
 - all the goals of the project were successfully achieved
 - we recommend confirmed NR2F6 candidate gene for further research as a drug target for non-small cell lung cancer
 - the identified commonly regulated processes should be taken into consideration during the future Drug toxicity research and compensatory therapy development.
+
+<a name="anchor_8"></a>
+## 8. References [↑](#anchor_0)
+1. Ettinger DS. Overview and state of the art in the management of lung cancer. Oncology (Williston Park). 2004 Jun;18(7 Suppl 4):3-9. \[[PMID: 15255162](https://pubmed.ncbi.nlm.nih.gov/15255162/)\]
+2. Molina JR, Yang P, Cassivi SD, Schild SE, Adjei AA. Non-small cell lung cancer: epidemiology, risk factors, treatment, and survivorship. Mayo Clin Proc. 2008 May;83(5):584-94. doi: 10.4065/83.5.584. \[[PMID: 18452692](https://pubmed.ncbi.nlm.nih.gov/18452692/)\]
+3. Chang A. Chemotherapy, chemoresistance and the changing treatment landscape for NSCLC. Lung Cancer. 2011 Jan;71(1):3-10. doi: 10.1016/j.lungcan.2010.08.022. Epub 2010 Oct 16. \[[PMID: 20951465](https://pubmed.ncbi.nlm.nih.gov/20951465/)\]
+4. Mograbi B, Heeke S, Hofman P. The Importance of STK11/LKB1 Assessment in Non-Small Cell Lung Carcinomas. Diagnostics (Basel). 2021 Jan 29;11(2):196. doi: 10.3390/diagnostics11020196. \[[PMID: 33572782](https://pubmed.ncbi.nlm.nih.gov/33572782/)\]
+5. Mazzaschi G, Leonetti A, Minari R, Gnetti L, Quaini F, Tiseo M, Facchinetti F. Modulating Tumor Microenvironment: A Review on STK11 Immune Properties and Predictive vs Prognostic Role for Non-small-cell Lung Cancer Immunotherapy. Curr Treat Options Oncol. 2021 Sep 15;22(11):96. doi: 10.1007/s11864-021-00891-8. \[[PMID: 34524570](https://pubmed.ncbi.nlm.nih.gov/34524570/)\]
+6. Nawaz K, Webster RM. The non-small-cell lung cancer drug market. Nat Rev Drug Discov. 2016 Apr;15(4):229-30. doi: 10.1038/nrd.2016.42. \[[PMID: 27032828](https://pubmed.ncbi.nlm.nih.gov/27032828/)\]
+7. Jin C, Xiao L, Zhou Z, Zhu Y, Tian G, Ren S. MiR-142-3p suppresses the proliferation, migration and invasion through inhibition of NR2F6 in lung adenocarcinoma. Hum Cell. 2019 Oct;32(4):437-446. doi: 10.1007/s13577-019-00258-0. Epub 2019 Jun 5. \[[PMID: 31168689](https://pubmed.ncbi.nlm.nih.gov/31168689/)\]
+8. Klepsch V, Siegmund K, Baier G. Emerging Next-Generation Target for Cancer Immunotherapy Research: The Orphan Nuclear Receptor NR2F6. Cancers (Basel). 2021 May 26;13(11):2600. doi: 10.3390/cancers13112600. \[[PMID: 34073258](https://pubmed.ncbi.nlm.nih.gov/34073258/)\]
+9. Chang JT, Chang H, Chen PH, Lin SL, Lin P. Requirement of aryl hydrocarbon receptor overexpression for CYP1B1 up-regulation and cell growth in human lung adenocarcinomas. Clin Cancer Res. 2007 Jan 1;13(1):38-45. doi: 10.1158/1078-0432.CCR-06-1166. \[[PMID: 17200336](https://pubmed.ncbi.nlm.nih.gov/17200336/)\]
+10. Cheng YH, Huang SC, Lin CJ, Cheng LC, Li LA. Aryl hydrocarbon receptor protects lung adenocarcinoma cells against cigarette sidestream smoke particulates-induced oxidative stress. Toxicol Appl Pharmacol. 2012 Mar 15;259(3):293-301. doi: 10.1016/j.taap.2012.01.005. Epub 2012 Jan 16. \[[PMID: 22273977](https://pubmed.ncbi.nlm.nih.gov/22273977/)\]
+11. Chou YT, Lin HH, Lien YC, Wang YH, Hong CF, Kao YR, Lin SC, Chang YC, Lin SY, Chen SJ, Chen HC, Yeh SD, Wu CW. EGFR promotes lung tumorigenesis by activating miR-7 through a Ras/ERK/Myc pathway that targets the Ets2 transcriptional repressor ERF. Cancer Res. 2010 Nov 1;70(21):8822-31. doi: 10.1158/0008-5472.CAN-10-0638. Epub 2010 Oct 26. \[[PMID: 20978205](https://pubmed.ncbi.nlm.nih.gov/20978205/)\]
+12. Liu Z, Zheng M, Lei B, Zhou Z, Huang Y, Li W, Chen Q, Li P, Deng Y. Whole-exome sequencing identifies somatic mutations associated with lung cancer metastasis to the brain. Ann Transl Med. 2021 Apr;9(8):694. doi: 10.21037/atm-21-1555. \[[PMID: 33987392](https://pubmed.ncbi.nlm.nih.gov/33987392/)\]
+
